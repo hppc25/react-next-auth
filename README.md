@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Authentication JWT in Next.js
+</h1>
 
-## Getting Started
 
-First, run the development server:
+
+<p align="center">
+ <a href="#about-the-project">About the project</a> •
+ <a href="#technologies">Technologies</a> •
+ <a href="#development-setup">Development Setup</a> •
+ <a href="#License">License</a> •
+ <a href="#author">Author</a>
+</p>
+
+
+## About the project
+
+The project aims to study and develop an application in NextJS to authenticate and control access permissions.
+
+The application was developed using the NextJS framework applying the authentication flow using contextAPI and Cookies. The authentication flow and access permissions controls are applied both on the Server Side and on the Client Side.
+
+---
+
+## Technologies
+
+Technologies used to build the application
+
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Nookies](https://github.com/maticzav/nookies)
+
+---
+
+## Development Setup
+
+### **Requirements**
+
+Dependencies:
+
+- [Git](https://git-scm.com/)
+- [Yarn](https://classic.yarnpkg.com)
+
+
+### **Clone the project**
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Run the command git clone  to clone the repository 
+$ git clone https://github.com/hppc25/react-next-auth.git
+#  change to directory
+$ cd dashgo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Setup the project**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# install dependencies
+$ yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The MIT License. Checnk [LICENSE](LICENSE) for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+By Helder Correia 👋🏽 Get in touch!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-Helder-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/helder2pc/)](https://www.linkedin.com/in/helder2pc/)
+[![Gmail Badge](https://img.shields.io/badge/-helder.patrick25@gmail.com-red?style=flat-square&link=mailto:helder.patrick25@gmail.com)](mailto:hppc25@gmail.com)
