@@ -1,7 +1,11 @@
 import { FormEvent, useContext, useState } from 'react';
+import { GetServerSideProps } from 'next';
+import { parseCookies } from 'nookies';
 
+import { withSSRGuest } from '../utils/withSSRGuest';
 import {AuthContext} from '../contexts/AuthContext';
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   const {signIn} = useContext(AuthContext)
@@ -27,3 +31,9 @@ export default function Home() {
     </form>
   )
 }
+
+export const getServerSideProps = withSSRGuest(async (context) => {
+  return {
+    props: {}
+  }
+});
